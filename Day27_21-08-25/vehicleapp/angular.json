@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pipedemo": {
+    "vehicleapp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -53,10 +53,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pipedemo:build:production"
+              "buildTarget": "vehicleapp:build:production"
             },
             "development": {
-              "buildTarget": "pipedemo:build:development"
+              "buildTarget": "vehicleapp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,6 +83,6 @@
     }
   },
   "cli": {
-    "analytics": "552347cf-b225-40bf-8d6d-12bb26ffc247"
+    "analytics": "6a455953-e81b-42d4-b030-7065955d7830"
   }
 }

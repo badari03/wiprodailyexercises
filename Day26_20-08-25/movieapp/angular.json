@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pipedemo": {
+    "movieapp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -53,10 +53,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pipedemo:build:production"
+              "buildTarget": "movieapp:build:production"
             },
             "development": {
-              "buildTarget": "pipedemo:build:development"
+              "buildTarget": "movieapp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,6 +83,6 @@
     }
   },
   "cli": {
-    "analytics": "552347cf-b225-40bf-8d6d-12bb26ffc247"
+    "analytics": "bc13e57a-1fc9-4a68-9cf0-75bf76ecf1cb"
   }
 }
