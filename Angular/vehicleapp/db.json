@@ -27,6 +27,13 @@
       "fuelType": "Petrol",
       "model": "Nexon",
       "price": 1400000
+    },
+    {
+      "id": "5dc7",
+      "make": "",
+      "model": "",
+      "fuelType": "",
+      "price": 0
     }
   ]
 }

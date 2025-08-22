@@ -22,8 +22,10 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ]
+              "src/styles.css",
+              "vehicleapp/node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": ["vehicleapp/node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
